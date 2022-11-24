@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="iTextSharp.LGPLv2.Core" Version="1.9.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\KSPTECHNOLOGY.Data\KSPTECHNOLOGY.Data.csproj" />
+    <ProjectReference Include="..\KSPTECHNOLOGY.Domain\KSPTECHNOLOGY.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
